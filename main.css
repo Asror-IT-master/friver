@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+h1::selection{
+    background-color: red;
+}
+a::selection{
+    background-color: green;
+}
+header{
+    display: flex;
+}
+.back{
+    animation-name: bacik;
+    animation-duration: 30s;
+    background-color: green;
+    height: 450px;
+}
+.right{
+    margin-left: 350px;
+    margin-top: 15px;
+}
+.right a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+.a6{
+    padding: 5px 20px;
+}
+.a6:hover{
+    background-color: rgb(23, 170, 23);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+@keyframes bacik {
+    10% {
+        background-color: red;
+    }
+    20% {
+        background-color: orangered;
+    }
+    30% {
+        background-color: yellow;
+    }
+    40% {
+        background-color: greenyellow;
+    }
+    50% {
+        background-color: green;
+    }
+    60% {
+        background-color: rgb(18, 219, 18);
+    }
+    70% {
+        background-color: rgb(65, 227, 133);
+    }
+    80% {
+        background-color: aquamarine;
+    }
+    90% {
+        background-color: aqua;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+.h1 {
+    display: inline-block;
+    padding: 0;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.h12 {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    color: green;
+    font-size: 30px;
+}
+.blok{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+.blok input{
+    height: 40px;
+    width: 450px;
+    font-size: 24px;
+    text-indent: 10px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+.blok h3{
+    font-size: 24px;
+}
+.ret{
+    display: flex;
+}
+.ret a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0px 20px;
+    border-radius: 15px;
+}
+.ret a:hover{
+    background-color: #fff;
+    color: black;
+    text-shadow: 2px 2px rgba(30, 300, 45, 0.4);
+}
+main{
+    background-color: #999;
+    display: flex;
+    height: 70px;
+}
+main h2{
+    margin-left: 200px;
+    font-size: 25px;
+    color: #666;
+}
+main a{
+    margin-left: 30px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #666;
+}
+.blok2 h1{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.img{
+    margin-top: 40px;
+    display: flex;
+}
+#h1{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 20px;
+    color: white;
+}
+#h2{
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 20px;
+    color: white;
+}
+#h3{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 20px;
+    color: white;
+}
+#h4{
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 20px;
+    color: white;
+}
+#h5{
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 20px;
+    color: white;
+}
+.img a img{
+    position: relative;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.futer{
+    background-color: rgb(121, 159, 239);
+    display: flex;
+}
+.t-right{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.t-left{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.t-left h1{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.t-left h3{
+    margin-left: 20px;
+    color: green;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.t-left p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
